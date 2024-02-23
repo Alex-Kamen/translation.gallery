@@ -7,6 +7,7 @@ import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
 import QuestionsPage from "@/pages/QuestionsPage";
 import RefundPolicyPage from "@/pages/RefundPolicyPage";
 import ServicesPage from "@/pages/ServicesPage";
+import AboutPage from "@/pages/AboutPage";
 
 export const router = createRouter({
     history: createWebHistory(),
@@ -19,6 +20,6 @@ export const router = createRouter({
         {path: '/questions', component: QuestionsPage},
         {path: '/refund_policy', component: RefundPolicyPage},
         {path: '/services', component: ServicesPage},
-        {path: '/about', component: ServicesPage},
+        {path: '/about', component: AboutPage},
     ]
 })

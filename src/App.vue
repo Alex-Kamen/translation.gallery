@@ -60,6 +60,8 @@ export default {
   padding: 0;
   font-family: Tahoma, Verdana, Arial, sans-serif;
   font-weight: 400;
+  color: #2e2e2e;
+  text-decoration: none;
 }
 
 #app {
